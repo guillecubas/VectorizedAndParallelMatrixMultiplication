@@ -11,7 +11,7 @@ import java.io.IOException;
 public class BenchmarkRunner {
 
     public static void main(String[] args) throws InterruptedException {
-        int[] sizes = {32, 64, 128, 256, 512, 1024, 2048};
+        int[] sizes = {32, 64, 128, 256, 512, 1024, 2048, 4096};
         int threads = Runtime.getRuntime().availableProcessors();
 
         try (FileWriter writer = new FileWriter("benchmark_results.csv")) {
