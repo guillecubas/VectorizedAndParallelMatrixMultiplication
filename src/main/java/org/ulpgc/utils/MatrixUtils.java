@@ -1,4 +1,4 @@
-package org.ulpgc.benchmark;
+package org.ulpgc.utils;
 
 import java.util.Random;
 
